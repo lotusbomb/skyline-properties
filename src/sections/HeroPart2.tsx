@@ -21,6 +21,7 @@ const HeroPart2 = () => {
           </button>
         </div>
 
+        <div className="absolute inset-0 bg-black/30 backdrop-blur-sm z-0"/>
         <Image
           src={cta}
           alt="cta"
