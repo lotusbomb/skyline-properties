@@ -9,7 +9,7 @@ const HeroSection = () => {
       <div className="container mx-auto ">
         <div className="flex flex-col md:flex-row items-center gap-8">
           <div className="w-full md:w-1/2">
-            <h1 className="text-bluee font-semibold text-xl md:text-2xl lg:text-4xl w-full md:w-3/4">
+            <h1 className="text-bluee font-semibold text-[22px] md:text-2xl lg:text-4xl w-full md:w-3/4">
               Getting ready for a new house?
             </h1>
             <p className="text-grey font-light mt-4 md:mt-6 w-full md:w-3/4">
