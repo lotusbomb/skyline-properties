@@ -48,8 +48,10 @@ const Contact = () => {
     <section className="py-6 mt-20">
       <div className=" container">
         <div className="items-center text-center inset-0 flex flex-col justify-center">
-          <h1 className="text-bluee font-semibold text-4xl">Let&apos;s Talk</h1>
-          <p className="mt-6 text-grey text-lg max-w-[450px] w-full">
+          <h1 className="text-bluee font-semibold text-2xl md:text-3xl lg:text-4xl">
+            Let&apos;s Talk
+          </h1>
+          <p className="mt-6 text-grey md:text-lg max-w-[450px] w-full">
             Do you have an inquiry or need help? Then reach out we&apos;d love
             to hear from you and provide help
           </p>
@@ -65,7 +67,9 @@ const Contact = () => {
               name="name"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel className="text-[20px] text-bluee">Name</FormLabel>
+                  <FormLabel className="md:text-[20px] text-[17px] text-bluee">
+                    Name
+                  </FormLabel>
                   <FormControl>
                     <Textarea
                       {...field}
@@ -82,7 +86,7 @@ const Contact = () => {
               name="email"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel className="text-[20px] text-bluee">
+                  <FormLabel className="md:text-[20px] text-[17px] text-bluee">
                     Email
                   </FormLabel>
                   <FormControl>
@@ -101,7 +105,7 @@ const Contact = () => {
               name="phone"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel className="text-[20px] text-bluee">
+                  <FormLabel className="md:text-[20px] text-[17px] text-bluee">
                     Phone number
                   </FormLabel>
                   <FormControl>
@@ -120,7 +124,7 @@ const Contact = () => {
               name="message"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel className="text-[20px] text-bluee">
+                  <FormLabel className="md:text-[20px] text-[17px] text-bluee">
                     Message
                   </FormLabel>
                   <FormControl>
@@ -133,7 +137,10 @@ const Contact = () => {
                 </FormItem>
               )}
             />
-            <Button type="submit" className="w-full bg-lightbluee py-6 text-[18px]">
+            <Button
+              type="submit"
+              className="w-full bg-lightbluee py-6 md:text-[18px] text-[15px]"
+            >
               Submit
             </Button>
           </form>

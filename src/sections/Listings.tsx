@@ -40,16 +40,18 @@ const Listings = () => {
             width={20}
           />
         </div>
-        <h3 className="text-bluee mb-3 font-medium">OUR LISTING</h3>
+        <h3 className="text-bluee font-medium md:text-lg text-sm mb-3">
+          OUR LISTING
+        </h3>
 
         <div className="flex items-center justify-between">
-          <h1 className="text-bluee font-semibold text-3xl leading-10">
+          <h1 className="text-bluee font-semibold text-[17px] lg:text-3xl md:text-2xl leading-10">
             We&apos;ve got what you need
           </h1>
-          <div className="inline-flex cursor-pointer text-bluee">
+          <div className="inline-flex cursor-pointer text-bluee text-[10px] sm:text-xs md:text-sm">
             See all{" "}
-            <span className="ml-3">
-              <Image src={arrow} alt="arrow" />
+            <span className="ml-1">
+              <Image src={arrow} alt="arrow" className="md:w-5 md:h-5 w-3 h-3" />
             </span>
           </div>
         </div>
@@ -65,7 +67,9 @@ const Listings = () => {
                   height={850}
                 />
               </div>
-              <h3 className='mt-4 text-bluee font-medium text-[28px]'>{index.title}</h3>
+              <h3 className="mt-4 text-bluee font-medium text-xl lg:text-3xl md:text-2xl">
+                {index.title}
+              </h3>
             </div>
           ))}
         </div>

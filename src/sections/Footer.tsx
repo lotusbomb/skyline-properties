@@ -5,11 +5,11 @@ import Image from 'next/image'
 
 const Footer = () => {
   return (
-    <footer className="ml-36">
-      <div className="p-14">
+    <footer className="ml-">
+      <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-14 mt-10">
           <div>
-            <h2 className='text-4xl text-bluee'>
+            <h2 className='md:text-3xl text-2xl text-bluee'>
               Skylineproperties<span className='text-lightbluee'>.</span>
             </h2>
             <p className='text-grey mt-7'>
@@ -20,7 +20,7 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className='text-bluee text-[20px] flex flex-col gap-4 text-justify ml-24'>
+          <div className='text-bluee text-[17px] md:text-[20px] flex flex-col gap-4 text-justify md:ml-24 font-semibold'>
             <a href="#">Home</a>
             <a href="#">Properties</a>
             <a href="#">Contact us</a>
